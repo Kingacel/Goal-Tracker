@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#000000</color>
+    <color name="icon_bg">#000000</color>
+    <color name="w_bg">#000000</color>
+    <color name="w_stroke">#2E2E2E</color>
+    <color name="w_text">#FFFFFF</color>
+    <color name="w_sub">#A0A0A0</color>
+    <color name="w_line">#2E2E2E</color>
+</resources>

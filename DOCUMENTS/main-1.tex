@@ -1,0 +1,77 @@
+% ---------------------------------------------------------------
+% main.tex -- Software Requirements Specification: Goal Tracker
+% Build:  latexmk -pdf main.tex     (or: pdflatex main && pdflatex main)
+% ---------------------------------------------------------------
+\documentclass[11pt,a4paper,oneside,openany]{book}
+\input{preamble}
+
+\title{\Huge\bfseries Software Requirements Specification\\[0.4em]
+       \Large \appname{} -- Goal \& Deadline Tracker\\[0.3em]
+       \large Native Android application (Java), version 3.4 source package}
+\author{Generated from analysis of the project files in\\
+        \texttt{V3.4GoalTracker-native.zip}}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{3cm}
+{\Huge\bfseries Software Requirements Specification\par}
+\vspace{1cm}
+{\LARGE \appname{} -- Goal \& Deadline Tracker\par}
+\vspace{0.5cm}
+{\large Native Android application written in Java\par
+  Package \texttt{\pkgname}\par}
+\vspace{2cm}
+\begin{tabular}{rl}
+  \textbf{Source package:} & \texttt{V3.4GoalTracker-native.zip}\\
+  \textbf{Platform:} & Android 8.0 (API 26) and later\\
+  \textbf{Build system:} & Shell scripts (\texttt{aapt2}, \texttt{javac}, \texttt{d8}, \texttt{apksigner})\\
+  \textbf{Document date:} & \today\\
+\end{tabular}
+\vfill
+{\small This document was derived from the actual source files. Statements that could
+not be confirmed from the files are marked \unverified{}.\par}
+\end{titlepage}
+
+\frontmatter
+\pagestyle{plain}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\pagestyle{fancy}
+\include{chapters/01_introduction}
+\include{chapters/02_requirements}
+\include{chapters/03_system_stack}
+\include{chapters/04_architecture}
+\include{chapters/05_data}
+\include{chapters/06_ui_features}
+\include{chapters/07_quality}
+\include{chapters/08_setup}
+\include{chapters/09_commands}
+\include{chapters/10_files}
+\include{chapters/11_limitations}
+
+\appendix
+\include{chapters/appendix}
+
+\begin{thebibliography}{9}
+\bibitem{android-docs} Android Developers. \emph{Android API reference and App Widgets guide}.
+  \url{https://developer.android.com/}
+\bibitem{aapt2} Android Developers. \emph{Android Asset Packaging Tool 2 (aapt2)}.
+  \url{https://developer.android.com/tools/aapt2}
+\bibitem{apksigner} Android Developers. \emph{apksigner}.
+  \url{https://developer.android.com/tools/apksigner}
+\bibitem{d8} Android Developers. \emph{d8 dexer}.
+  \url{https://developer.android.com/tools/d8}
+\bibitem{termux} Termux project. \emph{Termux terminal emulator for Android}.
+  \url{https://termux.dev/} and \url{https://f-droid.org/packages/com.termux/}
+\bibitem{saf} Android Developers. \emph{Storage Access Framework / DocumentsContract}.
+  \url{https://developer.android.com/guide/topics/providers/document-provider}
+\bibitem{readme} Project file \texttt{GoalTracker/README.md} (bundled with the source).
+\end{thebibliography}
+
+\end{document}

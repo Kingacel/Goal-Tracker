@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_bg">#FFFFFF</color>
+    <color name="icon_bg">#000000</color>
+    <!-- Home-screen widget colours (system mode follows day/night automatically) -->
+    <color name="w_bg">#FFFFFF</color>
+    <color name="w_stroke">#D4D4D4</color>
+    <color name="w_text">#000000</color>
+    <color name="w_sub">#6B6B6B</color>
+    <color name="w_line">#D4D4D4</color>
+</resources>
